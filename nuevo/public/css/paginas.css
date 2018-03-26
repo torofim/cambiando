@@ -1,0 +1,65 @@
+
+body {
+    overflow-x:  hidden;
+    overflow-y: scroll;
+    min-height: 100%;
+  }
+nav a{
+    font-size:1.5em;
+
+  }
+h1{
+  margin-top: 5%;
+  font-size:5em;
+  text-align: center;
+
+}
+header {
+    text-align: center;
+    color: #fff;
+    background: 	white;
+    position: fixed;
+    min-width: 100%;
+    z-index: 1;
+    min-height: 100%;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+}
+.navbar-header{
+  margin-left: 10%;
+
+}
+.content-wrapper{
+    background-color: white;
+    top: 98%;
+    min-height: 100%;
+    position:absolute;
+    z-index: 2;
+    min-width: 100%;
+}
+/* HERE ENDS THE MAGIC */
+header .container {
+    min-width: 100%;
+    margin-top: 2.7%;
+
+
+}
+header img {
+    display: block;
+    min-width: 100%;
+    background-size: cover;
+    margin-top: -20%;
+
+}
+header .intro-text .name {
+    display: block;
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 2em;
+    font-weight: 700;
+}
+header .intro-text .skills {
+    font-size: 1.25em;
+    font-weight: 300;
+}

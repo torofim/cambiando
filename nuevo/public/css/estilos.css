@@ -1,0 +1,233 @@
+body {
+  overflow-x:  hidden;
+  overflow-y: scroll;
+  min-height: 100%;
+}
+
+.containerarriba{
+margin-right: 1%;
+}
+header {
+    text-align: center;
+    color: #fff;
+    background: 	white;
+    position: fixed;
+    min-width: 100%;
+    z-index: 1;
+    min-height: 100%;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+}
+.navbar-header{
+  margin-left: 10%;
+
+}
+nav a{
+  font-size: 1.2em;
+}
+.content-wrapper{
+    background-color: white;
+    top: 98%;
+    min-height: 100%;
+    position:absolute;
+    z-index: 2;
+    min-width: 100%;
+}
+/* HERE ENDS THE MAGIC */
+header .container {
+    min-width: 100%;
+    margin-top: 2.7%;
+
+
+}
+header img {
+    display: block;
+    min-width: 100%;
+    background-size: cover;
+
+}
+header .intro-text .name {
+    display: block;
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 2em;
+    font-weight: 700;
+}
+header .intro-text .skills {
+    font-size: 1.25em;
+    font-weight: 300;
+}
+article p{
+  color:black;
+
+  font-size:1.5em;
+
+}
+
+section {
+    padding: 50px 0;
+    width: 100%;
+    height: 95vh;
+
+
+}
+p{
+  margin-top: 0%;
+  min-width: 40%;
+  font-size: 2rem;
+}
+.texto{
+  margin-top: 5%;
+  margin-left: 10%;
+}
+section h2 {
+    margin: 0;
+    font-size: 5em;
+    color: #2c3e50;
+}
+
+.rows{
+  display: inline-block;
+  height: 100%;
+  padding: 30px 0;
+}
+
+.imagen{
+  float: left;
+  display: block;
+  margin-left: 5%;
+  min-height: 55%;
+  min-width: 45%;
+  margin-top: 0%;
+}
+.imgn{
+  display: block;
+  min-height: 100%;
+  min-width: 80%;
+  float: left;
+}
+
+.dentro{
+
+min-height: 100%;
+}
+.contenido{
+  margin-top: 5%;
+  margin-bottom: 5%;
+margin-left:6.5%;
+  height:100%;
+
+}
+.dentro2{
+  margin-top: 15%;
+  margin-bottom: 15%;
+
+  height:100%;
+  width: 100%;
+
+}
+.dentro1{
+  margin-top: 15%;
+  margin-bottom: 15%;
+  margin-left:-10%;
+  height:100%;
+  width: 100%;
+
+}
+.dentro1:hover{
+  transform: scale(1.1);
+
+}
+.dentro1 img{
+  min-height: 30em;
+  min-width: 108%;
+  margin-left: -4%;
+
+}
+.dentro2 img{
+  min-height: 38em;
+  min-width: 108%;
+  margin-left: -4%;
+
+}
+.informe{
+
+  margin-left: 8%;
+margin-top: 5%;
+height: 65%;
+}
+
+.overlay {
+  position: absolute;
+   bottom: 0;
+   left: 0;
+ right: 0;
+   background: rgb(0, 0, 0);
+   background: rgba(4, 122, 20, 0.9); /* Black see-through */
+   color: #15600b;
+   width: 100%;
+   height: 100%;
+   transition: .5s ease;
+   opacity:0;
+   color: white;
+   font-size: 20px;
+   padding: 20px;
+   text-align: center;
+   background-image: url(./img/loga1.png);
+
+
+}
+h4{
+  font-size: 2em;
+  margin-top: -40%;
+}
+.text a{
+  text-decoration: overunderline;
+  color: black;
+  font-size: 1.5em;
+
+}
+
+
+.dentro1:hover .overlay {
+  opacity: 1;
+  background-image: url(./img/logo.png);
+}
+
+.text {
+  color: black;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+section.primary h2{
+    color: #2c3e50;
+    }
+
+section.success1{
+    background-color: 	white;
+    color: #fff;
+    min-height: 80%;
+    margin-top: 3%;
+    }
+
+.container4{
+  margin-top: 1%;
+  margin-left: 8%;
+  max-height: 85vh;
+}
+.carousel-inner{
+  max-height: 85vh;
+}
+
+
+.informe{
+  margin-left: 5%;
+}
